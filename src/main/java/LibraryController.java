@@ -5,8 +5,6 @@ import javax.swing.*;
 public class LibraryController {
     private final ReaderRepository readerRepository = new ReaderRepository();
 
-    //Register new reader
-    //See books list
     //Borrow a book
     //Return a book
     //Review reader's info
@@ -47,6 +45,4 @@ public class LibraryController {
     private String getUSerInput(String message) {
         return JOptionPane.showInputDialog(message);
     }
-
-
 }
