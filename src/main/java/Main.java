@@ -6,6 +6,8 @@ import java.util.List;
 
 public class Main {
 
+    LibraryController libraryController = new LibraryController();
+
     public static void main(String[] args) {
 
         Main main = new Main();
@@ -31,8 +33,8 @@ public class Main {
                 new BookOfLibrary("Hellraise2", "Barker", "Clive", "2009")
 >>>>>>> 87c7ce7 (LibraryApp August 2023)
         );
-        System.out.println("The books you may borrow at our library right now are: \n");
-        this.showAllBooksInLibraryNow(listOfBooksInLibrary);
+
+
 
 <<<<<<< HEAD
 
@@ -51,15 +53,33 @@ public class Main {
                             .append("\n6. Finish work")
                             .toString()
             );
+
             switch (userChoice) {
                 case "1":
-
+                    this.libraryController.registerNewReaderInController();
+                    break;
+                case "2":
+                    System.out.println("The books you may borrow at our library right now are: \n");
+                    this.showAllBooksInLibraryNow(listOfBooksInLibrary);
+                break;
+                case "3":
+//                    this.libraryController.
+                    break;
+                case "4":
+//                    this.libraryController.
+                    break;
+                case "5":
+//                    this.libraryController.
+                    break;
+                case "6":
+//                    this.libraryController.
+                    break;
             }
         }
 >>>>>>> 87c7ce7 (LibraryApp August 2023)
     }
     public void showAllBooksInLibraryNow(List<BookOfLibrary> theListOfChoice) {
-        for (BookOfLibrary currentItem : theListOfChoice) { //on right side the name of the list, on the left type of the item
+        for (BookOfLibrary currentItem : theListOfChoice) {
             System.out.println(currentItem);
         }
     }
