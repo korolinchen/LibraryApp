@@ -1,7 +1,6 @@
-<<<<<<< HEAD
-=======
+
 import javax.swing.*;
->>>>>>> 87c7ce7 (LibraryApp August 2023)
+
 import java.util.List;
 
 public class Main {
@@ -24,21 +23,12 @@ public class Main {
                 new BookOfLibrary("Animal Farm", "Orwell", "George", "1945"),
                 new BookOfLibrary("Pan's Labyrinth", "del Toro", "Guillermo", "2019"),
                 new BookOfLibrary("Pan's Labyrinth", "del Toro", "Guillermo", "2019"),
-                new BookOfLibrary("Hellraiser", "Barker", "Clive", "2006"),
-<<<<<<< HEAD
-                new BookOfLibrary("Hellraise", "Barker", "Clive", "2006")
-=======
+                new BookOfLibrary("Hellraise", "Barker", "Clive", "2006"),
                 new BookOfLibrary("Hellraise", "Barker", "Clive", "2006"),
                 new BookOfLibrary("Hellraiser2", "Barker", "Clive", "2009"),
                 new BookOfLibrary("Hellraise2", "Barker", "Clive", "2009")
->>>>>>> 87c7ce7 (LibraryApp August 2023)
         );
 
-
-
-<<<<<<< HEAD
-
-=======
         String userChoice = "";
         while (!userChoice.equals(" ")) {
 
@@ -76,7 +66,6 @@ public class Main {
                     break;
             }
         }
->>>>>>> 87c7ce7 (LibraryApp August 2023)
     }
     public void showAllBooksInLibraryNow(List<BookOfLibrary> theListOfChoice) {
         for (BookOfLibrary currentItem : theListOfChoice) {
